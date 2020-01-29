@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src="logo.png" alt="eLuminate logo"></img>
+      <h1> Hi, for business inquries, please contact: </h1>
+      <h2> Jackson Mills: aim4math@gmail.com </h2>
+      <h2> Tony Wangs: tony.wangs@gmail.com </h2>
     </div>
   );
 }
